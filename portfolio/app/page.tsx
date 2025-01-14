@@ -1,5 +1,6 @@
-import { Github, Linkedin, Mail, Phone } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { SiLinkedin } from "react-icons/si";
 import Link from "next/link";
 
 export default function Portfolio() {
@@ -25,7 +26,7 @@ export default function Portfolio() {
               className="p-2 rounded-full hover:bg-gray-800"
               aria-label="LinkedIn"
             >
-              <Linkedin className="w-5 h-5 text-blue-400" />
+              <SiLinkedin className="w-5 h-5 text-blue-400" />
             </Link>
             <Link
               href="tel:302-373-0412"
