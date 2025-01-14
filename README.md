@@ -1,4 +1,6 @@
 
+npm install next react react-dom lucide-react
+
 <!--
 **txtran224/txtran224** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
