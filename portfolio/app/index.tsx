@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Phone } from "lucide-react";
+import { Link2Icon, Mail, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
@@ -25,7 +25,7 @@ export default function Portfolio() {
               className="p-2 rounded-full hover:bg-gray-800"
               aria-label="LinkedIn"
             >
-              <Linkedin className="w-5 h-5 text-blue-400" />
+              <Link2Icon className="w-5 h-5 text-blue-400" />
             </Link>
             <Link
               href="tel:302-373-0412"
@@ -85,7 +85,8 @@ export default function Portfolio() {
               <div className="flex justify-between items-center mb-2">
                 <div>
                   <h3 className="font-medium text-white">
-                    Associate's Degree in Applied Science in Business Accounting
+                    Associate&apos;s Degree in Applied Science in Business
+                    Accounting
                   </h3>
                   <p className="text-gray-400">
                     Delaware Technical Community College | 2018 - 2021
